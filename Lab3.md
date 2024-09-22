@@ -1,4 +1,4 @@
-#My Project Plan (Level 1 Heading)
+# My Project Plan (Level 1 Heading)
  **Note:** This document is written merely as an illustrative example, and does not provide
  any working guide to an actual project.
 ###Proposal (Level 3 Heading)
@@ -10,14 +10,14 @@
  For example, the objects in the following images were detected using [mmdetection](https://github.com/open-mmlab/mmdetection):
 
 ---
-###Dependencies (Level 3 Heading)
+### Dependencies (Level 3 Heading)
  - python
  - opencv-python
  - tensorflow
  - openmmlab
  - package manager
 
- ###Installation (Level 3 Heading)
+ ### Installation (Level 3 Heading)
   In a bash terminal, run the following commands (Do NOT actually run these commands in
  your computer):
  
