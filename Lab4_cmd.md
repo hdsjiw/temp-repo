@@ -34,10 +34,11 @@ $ python example.py
 -->
 # Command Line Interface
 ### Kernal and Shell
-| **Kernel** | **Shell** |
-| Core of OS | Allows users to communicate with kernel |
-| Managing HW resources  | Give commands  |
-
+| 이름   | 설명  | 나이 |
+| :----- | ----: | :---: |
+| 김태완  | 아빠  | 40 |
+| 임선영  | 엄마  | 30 |
+| 김민수  | 아들  | 2  |
 
 
 
