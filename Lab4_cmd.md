@@ -47,7 +47,7 @@ $ python example.py
 | Remember commands | Easy to use, intuitive |
 | Keyboards | Mouse |
 | Fast | Slow |
-| Remenber commands | Easy to use, intuitive |
+| Remember commands | Easy to use, intuitive |
 
 ### Git Bash
  Git Bash is a command-line interface application that provides a Git command-line experience with a Bash emulation on Windows. It's often used by developers to interact with Git repositories in a Linux-like environment, even on a Windows system.
@@ -73,12 +73,27 @@ $ python example.py
 | -lh | detailed information, human친화적인 |
 
   - cp : copy files/directories
+$ cp file1 file2 
+$ cp -i file1 file2
+$ cp file1 dir1
+$ cp -R dir1 dir2  
   - mv : move
+$ mv file1 file2
+$ mv -i file1 file2
+$ mv file1 file2 dir1
+$ mv dir1 dir2 
   - rm : remove
+$ rm file1 file2
+$ rm -i file1 file2
+$ rm -r dir1 dir2
   - mkdir : make a new directory
   - clear : interface clean
   - exit
 
+### Wildcards
+  - * : All filenames
+  - g* : g로 시작하는 All filenames
+  - Data??? : Begins with the characters "Data" followed by 3 more characters
 ### Others
   - tab : Autocompletion(자동 완성)
   - ↑ : past commands
