@@ -54,19 +54,34 @@ $ python example.py
  
 ### Shell Command
   - pwd : shows the current path in a hierarchical directory
+   
   - cd : change directory
   - ls : list files/directories
-  - clear : interface clean
+| 기호 | mean  | 
+| :----- | ----: |
+| / | root |
+| . | current directory |
+| .. | upper-level directory |
+| ~ | home of current user |  
+| /[directory] | absolute path |  
+| ./[directory] | relative path | 
+
+| 기호 | mean  | 
+| :----- | ----: |
+| -l | detailed information |
+| -lh | detailed information, human친화적인 |
+
   - cp : copy files/directories
   - mv : move
   - rm : remove
   - mkdir : make a new directory
+  - clear : interface clean
   - exit
 
 ### Others
   - tab : Autocompletion(자동 완성)
   - ↑ : past commands
-  - 
+
 ### Help Command
   - help 명령어
   - man 명령어 : manual
