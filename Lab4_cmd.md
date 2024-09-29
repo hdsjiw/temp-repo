@@ -36,22 +36,18 @@ $ python example.py
 ### Kernal and Shell
 | **Kernel**   | **Shell**  | 
 | :----- | ----: | 
-| 김태완  | 아빠  | 
-| 임선영  | 엄마  | 
-| 김민수  | 아들  |
+| Core of OS  | Allows users to communicate with kernel | 
+| Managing HW resources  | Give commands  | 
 
-
-
-  | **Kernel** | **Shell** |
-  | Core of OS | Allows users to communicate with kernel |
-  | Managing HW resources | Give commands |
 ### CLI VS GUI
-  |**CLI**|**GUI**|
-  |Command Line Interface|Graphical User Interface|
-  |Remenber commands|Easy to use, intuitive|
-  |Keyboards|Mouse|
-  |Fast|Slow|
-  |Remenber commands|Easy to use, intuitive|
+
+| **CLI**   | **GUI**  | 
+| :----- | ----: |
+| Command Line Interface | Graphical User Interface |
+| Remember commands | Easy to use, intuitive |
+| Keyboards | Mouse |
+| Fast | Slow |
+| Remenber commands | Easy to use, intuitive |
 ### Git Bash
 ### Shell Command
   - cd
