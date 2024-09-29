@@ -34,9 +34,9 @@ $ python example.py
 -->
 # Command Line Interface
 ### Kernal and Shell
-  |**Kernel**|**Shell**|
-  |Core of OS|Allows users to communicate with kernel|
-  |Managing HW resources|Give commands|
+  | **Kernel** | **Shell** |
+  | Core of OS | Allows users to communicate with kernel |
+  | Managing HW resources | Give commands |
 ### CLI VS GUI
   |**CLI**|**GUI**|
   |Command Line Interface|Graphical User Interface|
