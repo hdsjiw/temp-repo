@@ -57,6 +57,7 @@ $ python example.py
    
   - cd : change directory
   - ls : list files/directories
+  - 
 | 기호 | mean  | 
 | :----- | ----: |
 | / | root |
