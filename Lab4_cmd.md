@@ -73,25 +73,31 @@ $ python example.py
 | -lh | detailed information, human친화적인 |
 
   - cp : copy files/directories
+ ```sh
 $ cp file1 file2 
 $ cp -i file1 file2
 $ cp file1 dir1
-$ cp -R dir1 dir2  
+$ cp -R dir1 dir2
+ ```  
   - mv : move
+ ```sh
 $ mv file1 file2
 $ mv -i file1 file2
 $ mv file1 file2 dir1
-$ mv dir1 dir2 
+$ mv dir1 dir2
+ ``` 
   - rm : remove
+ ```sh
 $ rm file1 file2
 $ rm -i file1 file2
 $ rm -r dir1 dir2
+ ```
   - mkdir : make a new directory
   - clear : interface clean
   - exit
 
 ### Wildcards
-  - * : All filenames
+  - \* : All filenames
   - g* : g로 시작하는 All filenames
   - Data??? : Begins with the characters "Data" followed by 3 more characters
 ### Others
