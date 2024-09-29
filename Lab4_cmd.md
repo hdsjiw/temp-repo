@@ -48,17 +48,25 @@ $ python example.py
 | Keyboards | Mouse |
 | Fast | Slow |
 | Remenber commands | Easy to use, intuitive |
+
 ### Git Bash
+ Git Bash is a command-line interface application that provides a Git command-line experience with a Bash emulation on Windows. It's often used by developers to interact with Git repositories in a Linux-like environment, even on a Windows system.
+ 
 ### Shell Command
-  - cd
-  - ls
-  - clear
-  - cp
+  - pwd : shows the current path in a hierarchical directory
+  - cd : change directory
+  - ls : list files/directories
+  - clear : interface clean
+  - cp : copy files/directories
   - mv : move
   - rm : remove
   - mkdir : make a new directory
   - exit
+
+### Others
+  - tab : Autocompletion(자동 완성)
+  - ↑ : past commands
+  - 
 ### Help Command
   - help 명령어
-  - man 명령어
-  - exit
+  - man 명령어 : manual
