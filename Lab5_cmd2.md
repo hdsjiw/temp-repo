@@ -1,7 +1,5 @@
 # Command Line Interface
 ### Output
-  - Standard output : screen
-  - File output : using ">" 
 | **기호**   | **OUTPUT**  | 
 | :----- | ----: |
 | X | screen(default) |
@@ -12,70 +10,85 @@
  ls -lh
  ls -lh > file_list.txt
  ls -lh >> file_list.txt
- ``` 
+ ```
 
 ### Input
-
 | **기호**   | **INPUT**  | 
 | :----- | ----: |
 | X | keyboard(default) |
 | < | file |
 
 ### Pipeline
- "|" : Use to enter multiple commands at once\
+"l" : Use to enter multiple commands at once
 
-### Shell Command
-  - pwd : shows the current path in a hierarchical directory
-   
-  - cd : change directory
-  - ls : list files/directories
-  - 
-| 기호 | mean  | 
+### Permissions
+  - ***-rwxrwxrwx*** / ***-rw-r--r--***
+    - ***-rwx*** : Read/Write/Execute for file owner
+    - ***rwx*** : Read/Write/Execute for group owner
+    - ***rwx*** : Read/Write/Execute for all user
+
+| Value | Meaning | 
 | :----- | ----: |
-| / | root |
-| . | current directory |
-| .. | upper-level directory |
-| ~ | home of current user |  
-| /[directory] | absolute path |  
-| ./[directory] | relative path | 
+| 777 | rwxrwxrwx(No restrictions) |
+| ***755*** | rwxr-xr-x(Common use) |
+| 700 | rwx------ |
+| 666 | rw-rw-rw- |
+| 644 | rw-r--r-- |
+| 600 | rw------- |
 
-| 기호 | mean  | 
-| :----- | ----: |
-| -l | detailed information |
-| -lh | detailed information, human친화적인 |
-
-  - cp : copy files/directories
+  - chmod : Changing permissions
  ```sh
-$ cp file1 file2 
-$ cp -i file1 file2
-$ cp file1 dir1
-$ cp -R dir1 dir2
- ```  
-  - mv : move
- ```sh
- mv file1 file2
- mv -i file1 file2
- mv file1 file2 dir1
- mv dir1 dir2
- ``` 
-  - rm : remove
- ```sh
- rm file1 file2
- rm -i file1 file2
- rm -r dir1 dir2
+chmod 644 words.txt
  ```
-  - mkdir : make a new directory
-  - clear : interface clean
-  - exit
+  - Superuser : All system adminstration authority
+ ```sh
+sudo 명령어
+ ```
+### Text Editors
+| Name | description  | 
+| :----- | ----: |
+| ***vi,vim*** | cmd/ powerful, lightweight, and fast |
+| Emace | cmd/ every feature |
+| ***nano*** | cmd/easy to use-recommend for first-time users |
+| gedit | gui/easy to use-recommend for first-time users |
+| kwrite | gui/syntax highlighting |
 
-### Wildcards
-  - \* : All filenames
-  - g* : g로 시작하는 All filenames
-  - Data??? : Begins with the characters "Data" followed by 3 more characters
+### Shell Script
+sh 스크립트 : Execute the command at once
+
 ### Others
-  - tab : Autocompletion(자동 완성)
-  - ↑ : past commands
+  - echo : Output value of text or variable
 
-### Help Command
-  - help 명령어
-  - man 명령어 : manual
+```sh
+ echo print out the text
+ ``` 
+  - "/" : enter(for long commands)
+  - wget : download files from the internet directly
+
+```sh
+ wget 파일명
+ ```
+  - history : See previous command history
+  - curl : fetching,uploading, and managing data
+  - grep (Global Regular Expression Print) : Searching text within files
+
+    ***Command options***
+    
+| **기호**   | **OUTPUT**  | 
+| :----- | ----: |
+| -i | Case-free search |
+| -v | Not containing |
+| -n | Display line numbers along with matching lines |
+| -r | Recursive search(all files) |
+
+
+  
+| **기호**   | **OUTPUT**  | 
+| :----- | ----: |
+| .* | No matter |
+| \d | Matches any digit |
+| [abc] | Matches any single character within the braskets |
+| ^ | Matches the beginning of a line |
+| $ | Matches the end of a line |
+
+### ***More information, ask to LLM!***
